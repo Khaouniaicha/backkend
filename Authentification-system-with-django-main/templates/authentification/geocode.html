@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geocoding Results</title>
+</head>
+<body>
+    <h1>Geocoding Results</h1>
+
+    {% if geocoding_data %}
+        <p>Latitude: {{ geocoding_data.latitude }}</p>
+        <p>Longitude: {{ geocoding_data.longitude }}</p>
+        <p>Address: {{ geocoding_data.address }}</p>
+    {% elif error_message %}
+        <p>Error: {{ error_message }}</p>
+    {% else %}
+        <p>No geocoding data available.</p>
+    {% endif %}
+</body>
+</html>
