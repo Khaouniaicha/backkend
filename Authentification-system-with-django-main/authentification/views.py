@@ -12,32 +12,13 @@ from django.template.loader import render_to_string
 from . tokens import generateToken
 from django.http import JsonResponse
 from geopy.geocoders import Nominatim
-from .views import geocode
+import ipdb
 
-# Create your views here.
+
+
 def home(request, *args, **kwargs):
     return render(request, 'authentification/index.html')
 
-def geocode(request, *args, **kwargs):
-    if request.method == 'GET':
-        address = request.GET.get('address')
-
-        if address:
-            geolocator = Nominatim(user_agent="geocoding_app")
-            location = geolocator.geocode(address)
-
-            if location:
-                geocoding_data = {
-                    'latitude': location.latitude,
-                    'longitude': location.longitude,
-                    'address': location.address,
-                }
-                return JsonResponse(geocoding_data, status=200)
-                
-            else:
-                return JsonResponse({'error': 'Geocoding failed'}, status=400)
-
-    return JsonResponse({'error': 'Invalid request'}, status=400)
 
 def signup(request):
     if request.method == "POST":
@@ -103,6 +84,8 @@ def signup(request):
         email.send()
         return render(request,'authentification/signin.html',{'messages':messages.get_messages(request)})
     return render(request, 'authentification/signup.html')    
+
+
 def signin(request):
     if request.method == "POST":
         username = request.POST['username']
@@ -122,3 +105,30 @@ def signin(request):
             return render(request,'authentification/index.html',{'messages':messages.get_messages(request)})
 
     return render(request, 'authentification/signin.html')    
+
+def signout(request):
+    logout(request)
+    messages.success(request, 'logout successfully!')
+    return redirect('home')
+   
+
+def geocode(request):
+    if request.method == 'GET':
+        address = request.GET.get('address')
+
+        if address:
+            geolocator = Nominatim(user_agent="geocoding_app")
+            location = geolocator.geocode(address)
+
+            if location:
+                geocoding_data = {
+                    'latitude': location.latitude,
+                    'longitude': location.longitude,
+                    'address': location.address,
+                }
+                return JsonResponse(geocoding_data, status=200)
+            else:
+                return JsonResponse({'error': 'Geocoding failed'}, status=400)
+
+
+

@@ -1,0 +1,309 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Ceci est un logiciel libre ; voir le source pour les conditions de copie.
+# Il n'y a PAS de garantie ; tant pour une utilisation COMMERCIALE que pour
+# R�PONDRE � UN BESOIN PARTICULIER.
+
+# Ce logiciel est construit pour i386-pc-mingw32
+ 
+
+# Base de donn�es de Make, imprim�e le Wed Mar 13 17:33:21 2024
+
+# Variables
+
+# environnement
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# automatique
+?F = $(notdir $?)
+# automatique
+<D = $(patsubst %/,%,$(dir $<))
+# environnement
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile
+MAKEFLAGS = Rrqp
+# automatique
+?D = $(patsubst %/,%,$(dir $?))
+# environnement
+GRADLE_HOME = C:\Program Files\Android\Android Studio\gradle\gradle-7.6.1
+# automatique
+@D = $(patsubst %/,%,$(dir $@))
+# environnement
+HOMEDRIVE = C:
+# automatique
+@F = $(notdir $@)
+# automatique
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/AL-Athir/Desktop/venv
+# d�faut
+SHELL := C:/Program Files/Git/bin/sh.exe
+# environnement
+WINDIR = C:\Windows
+# environnement
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"fr-fr","availableLanguages":{},"_languagePackSupport":true}
+# environnement
+ONEDRIVE = C:\Users\AL-Athir\OneDrive
+# environnement
+GDAL_DATA = C:\Program Files\PostgreSQL\16\gdal-data
+# environnement
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environnement
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environnement
+TMP = C:\Users\AL-Athir\AppData\Local\Temp
+# environnement
+PROGRAMW6432 = C:\Program Files
+# environnement
+PROGRAMDATA = C:\ProgramData
+# environnement
+VSCODE_CWD = C:\Users\AL-Athir\AppData\Local\Programs\Microsoft VS Code
+# environnement
+PATH = C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\AL-Athir\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\AL-Athir\AppData\Local\Programs\Python\Python311\;C:\Windows\System32;C:\flutter\flutter\bin;C:\Users\AL-Athir\AppData\Roaming\npm;C:\Program Files\Git\bin;C:\tools\dart-sdk\bin;C:\Users\AL-Athir\AppData\Local\Pub\Cache\bin;C:\dart-sdk\bin;C:\gradle\gradle-8.6\bin;C:\Users\AL-Athir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;;C:\Users\AL-Athir\miniconda3\Library\bin;D:\GnuWin32\bin;
+# environnement
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environnement
+ZES_ENABLE_SYSMAN = 1
+# environnement
+CHOCOLATEYLASTPATHUPDATE = 133538855190987224
+# environnement
+PROCESSOR_ARCHITECTURE = x86
+# environnement
+USERPROFILE = C:\Users\AL-Athir
+# environnement
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environnement
+ALLUSERSPROFILE = C:\ProgramData
+# environnement
+NUMBER_OF_PROCESSORS = 8
+# environnement
+ELECTRON_RUN_AS_NODE = 1
+# d�faut
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environnement
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;
+# automatique
+%F = $(notdir $%)
+# environnement
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7984_ZYADINELLEAEYLTQ
+# environnement
+CURL_CA_BUNDLE = C:\Program Files\PostgreSQL\16\ssl\certs\ca-bundle.crt
+# environnement
+IGCCSVC_DB = AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASiBOY7V30k+nd+OoyxLdywQAAAACAAAAAAAQZgAAAAEAACAAAAAPK2FsVyo0H1W/yiO4q4f4uojUcswefnPsrNduyK2BnAAAAAAOgAAAAAIAACAAAAD9VOMW26csEsarEM6SRyt2/PGOcrfnPdYnFzxpCk8pMmAAAABouY2arrmh7YyjMGCPsx3vdCTDk1aOBDCrXT5AFIxg2f5IbWLkob7tFtT89eX7ir56ZguE3drSvDHVisN5ivDRouST+ar1YR6UJX5QeJf7cCwGrE2Fs9PpdJ+1vdwJ/9ZAAAAAtOu1bCiX4nGGi0uMZTzw6lAYzBG98XEC2vhSNQ27/zD2bggcN+BBMnIfPcgN8s+mSBZWHk4o/MJ6e8O2u0T8ag==
+# environnement
+EFC_13816 = 1
+# environnement
+POSTGIS_GDAL_ENABLED_DRIVERS = GTiff PNG JPEG GIF XYZ DTED USGSDEM AAIGrid
+# environnement
+COMPUTERNAME = DESKTOP-JRLN39U
+# environnement
+PROGRAMFILES = C:\Program Files (x86)
+# environnement
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# automatique
+*D = $(patsubst %/,%,$(dir $*))
+# environnement
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environnement
+USERNAME = AL-Athir
+# environnement
+PUBLIC = C:\Users\Public
+# environnement
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environnement
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environnement
+VSCODE_CODE_CACHE_PATH = C:\Users\AL-Athir\AppData\Roaming\Code\CachedData\863d2581ecda6849923a2118d93a088b0745d9d6
+# environnement
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environnement
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environnement
+LOGONSERVER = \\DESKTOP-JRLN39U
+# environnement
+ONEDRIVECONSUMER = C:\Users\AL-Athir\OneDrive
+# environnement
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environnement
+USERDOMAIN = DESKTOP-JRLN39U
+# environnement
+POSTGIS_ENABLE_OUTDB_RASTERS = 1
+# d�faut
+MAKECMDGOALS := all
+# environnement
+JAVA_HOME = C:\Program Files\Java\jdk-21
+# d�faut
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# d�faut
+MAKE = $(MAKE_COMMAND)
+# environnement
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatique
+%D = $(patsubst %/,%,$(dir $%))
+# environnement
+PROJ_LIB = C:\Program Files\PostgreSQL\16\share\contrib\postgis-3.4\proj
+# environnement
+LOCALAPPDATA = C:\Users\AL-Athir\AppData\Local
+# environnement
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Users\AL-Athir\AppData\Local\Android\Sdk\platform-tools;C:\flutter\flutter\bin;%JAVA_HOME%\bin;C:\flutter\flutter\bin;%GRADLE_HOME%\bin;C:\Windows\System32;C:\Program Files\Java\jdk-21\bin;C:\Windows;
+# d�faut
+MAKE_COMMAND := make.exe
+# environnement
+PROCESSOR_ARCHITEW6432 = AMD64
+# d�faut
+.VARIABLES := 
+# automatique
+*F = $(notdir $*)
+# environnement
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+# environnement
+OS = Windows_NT
+# environnement
+VSCODE_IPC_HOOK = \\.\pipe\7397c071-1.87.2-main-sock
+# environnement
+HOMEPATH = \Users\AL-Athir
+# environnement
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environnement
+PROMPT = $P$G
+# environnement
+MFLAGS = -Rrqp
+# environnement
+GIT = C:\Program Files\Git\bin
+# environnement
+SYSTEMROOT = C:\Windows
+# automatique
++D = $(patsubst %/,%,$(dir $+))
+# environnement
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatique
++F = $(notdir $+)
+# environnement
+APPDATA = C:\Users\AL-Athir\AppData\Roaming
+# environnement
+TEMP = C:\Users\AL-Athir\AppData\Local\Temp
+# environnement
+COMSPEC = C:\Windows\system32\cmd.exe
+# d�faut
+MAKEFILES := 
+# automatique
+<F = $(notdir $<)
+# environnement
+LC_ALL = C
+# automatique
+^F = $(notdir $^)
+# d�faut
+SUFFIXES := 
+# environnement
+SYSTEMDRIVE = C:
+# environnement
+SESSIONNAME = Console
+# environnement
+PROCESSOR_REVISION = 8c01
+# environnement
+MAKELEVEL := 0
+# environnement
+LANG = C
+# environnement
+PROCESSOR_LEVEL = 6
+# environnement
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environnement
+VSCODE_PID = 7984
+# environnement
+FLUTTER = C:\flutter\flutter\bin
+# environnement
+USERDOMAI 
+N_ROAMINGPROFILE = DESKTOP-JRLN39U
+# variables initialis�es dans les statistiques de table de hachage:
+# Charge=103/1024=10%, Refait le hachage=0, Collisions=12/119=10%
+
+# Valeurs de variable avec mod�le sp�cifique
+
+# pas de valeurs de variable avec mod�le sp�cifique
+
+# R�pertoires
+
+# C:\Program Files\Docker\Docker\resources\bin (p�riph�rique C:/Program Files/Docker/Docker/resources/bin, mtime 1709792685): 14 fichiers, non impossibilit�s.
+# C:\flutter\flutter\bin (p�riph�rique C:/flutter/flutter/bin, mtime 1706824234): 9 fichiers, non impossibilit�s.
+# . (p�riph�rique c:/Users/AL-Athir/Desktop/venv, mtime 1710344986): 8 fichiers, non impossibilit�s.
+# C:\ProgramData\chocolatey\bin (p�riph�rique C:/ProgramData/chocolatey/bin, mtime 1707332930): 6 fichiers, non impossibilit�s.
+# C:\Program Files\nodejs\ (p�riph�rique C:/Program Files/nodejs/, mtime 1707333913): 12 fichiers, non impossibilit�s.
+# C:\Program Files\PowerShell\7\ (p�riph�rique C:/Program Files/PowerShell/7/, mtime 1709215939): 343 fichiers, non impossibilit�s.
+# C:\Program Files\Git\bin (p�riph�rique C:/Program Files/Git/bin, mtime 1706679359): 5 fichiers, non impossibilit�s jusqu'ici.
+# C:\Windows\System32 (p�riph�rique C:/Windows/System32, mtime 1710343503): 3061 fichiers, non impossibilit�s.
+# C:\Users\AL-Athir\AppData\Roaming\npm (p�riph�rique C:/Users/AL-Athir/AppData/Roaming/npm, mtime 1707336650): 6 fichiers, non impossibilit�s.
+# C:\Users\AL-Athir\AppData\Local\Programs\Python\Python311\ (p�riph�rique C:/Users/AL-Athir/AppData/Local/Programs/Python/Python311/, mtime 1710069374): 18 fichiers, non impossibilit�s.
+# C:\Users\AL-Athir\AppData\Local\Programs\Python\Python311\Scripts\ (p�riph�rique C:/Users/AL-Athir/AppData/Local/Programs/Python/Python311/Scripts/, mtime 1710069567): 23 fichiers, non impossibilit�s.
+
+# 3505 fichiers, non impossibilit�s dans 11 r�pertoires.
+
+# R�gles Implicites
+
+# Pas de r�gles implicites.
+
+# Fichiers
+
+# Pas une cible :
+all:
+#  Cible provenant de la ligne de commande.
+#  Recherche de r�gle implicite effectu�e.
+# Fichier inexistant.
+#  Fichier n'a pas �t� mis � jour.
+# variables initialis�es dans les statistiques de table de hachage:
+# Charge=0/32=0%, Refait le hachage=0, Collisions=0/0=0%
+
+# Pas une cible :
+.DEFAULT:
+#  Recherche de r�gle implicite n'a pas �t� effectu�e.
+#  Heure de modification jamais v�rifi�e.
+#  Fichier n'a pas �t� mis � jour.
+
+# Pas une cible :
+makefile:
+#  Une valeur par d�faut MAKEFILES ou -include/sinclude makefile.
+#  Recherche de r�gle implicite effectu�e.
+# Fichier inexistant.
+#  Fichier a �t� mis � jour.
+#  N'a pas pu �tre mis � jour.
+# variables initialis�es dans les statistiques de table de hachage:
+# Charge=0/32=0%, Refait le hachage=0, Collisions=0/0=0%
+
+# Pas une cible :
+.SUFFIXES:
+#  Recherche de r�gle implicite n'a pas �t� effectu�e.
+#  Heure de modification jamais v�rifi�e.
+#  Fichier n'a pas �t� mis � jour.
+
+# Pas une cible :
+GNUmakefile:
+#  Une valeur par d�faut MAKEFILES ou -include/sinclude makefile.
+#  Recherche de r�gle implicite effectu�e.
+# Fichier inexistant.
+#  Fichier a �t� mis � jour.
+#  N'a pas pu �tre mis � jour.
+# variables initialis�es dans les statistiques de table de hachage:
+# Charge=0/32=0%, Refait le hachage=0, Collisions=0/0=0%
+
+# statistiques des fichiers de la table de hachage:
+# Charge=5/1024=0%, Refait le hachage=0, Collisions=0/16=0%
+# Chemins de Recherche VPATH
+
+# Pas de chemins de recherche � vpath �.
+
+# Pas de chemin de recherche g�n�ral (variable � VPATH �).
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Fin de la base de donn�es de Make le Wed Mar 13 17:33:21 2024
+
+ 
+make.exe: *** Pas de r�gle pour fabriquer la cible � all �. Arr�t.
+

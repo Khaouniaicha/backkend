@@ -2,6 +2,7 @@ from . info import *
 from pathlib import Path
 import os 
 
+from decouple import config
 import django
 from django.utils.encoding import force_str
 django.utils.encoding.force_text = force_str
@@ -11,6 +12,10 @@ EMAIL_HOST = EMAIL_HOST
 EMAIL_HOST_USER =EMAIL_HOST_USER
 EMAIL_HOST_PASSWORD = EMAIL_HOST_PASSWORD
 EMAIL_PORT = EMAIL_PORT
+
+
+
+
 
 if os.name == 'nt':
     VENV_BASE = os.environ['VIRTUAL_ENV']
@@ -24,13 +29,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-n^&6$qo8r#@ai5evtyt$5exb&i0oj+qqe1v4rf^-cmx99k+aof'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ['*']
-
 
 
 # Application definition
@@ -43,12 +47,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'authentification',
-   
+    'debug_toolbar',
+    
     
     'rest_framework',
     'django_filters',
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
+    'corsheaders',
     
 ]
 
@@ -60,8 +66,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-  
+    'corsheaders.middleware.CorsMiddleware',
 ]
+CORS_ALLOW_ALL_ORIGINS =config('CORS_ALLOW_ALL_ORIGINS', default=False, cast=bool)
+
+
 
 ROOT_URLCONF = 'application.urls'
 

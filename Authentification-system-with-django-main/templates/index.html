@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flutter Windows App</title>
+</head>
+<body>
+    <!-- Embedding the Flutter build -->
+    <div id="flutter-app"></div>
+
+    <script src="{% static 'path_to_flutter_build/flutter.js' %}"></script>
+    <script>
+        // Initialize Flutter app
+        flutterEmbedder('flutter-app');
+    </script>
+</body>
+</html>
